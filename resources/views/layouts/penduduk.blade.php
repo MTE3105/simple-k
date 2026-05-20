@@ -12,7 +12,6 @@
                     <th>NIK</th>
                     <th>Jenis Kelamin</th>
                     <th>Alamat</th>
-                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
