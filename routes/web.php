@@ -5,6 +5,7 @@ use App\Http\Controllers\KelurahanController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PendudukController;
 
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -20,5 +21,8 @@ Route::get('/beranda', function () {
 });
 
 Route::get('/penduduk',[PendudukController::class, 'dataPenduduk']);
+
+Route::get('/surat', [PendudukController::class, 'daftarSurat']);
+
 
 
